@@ -1,4 +1,4 @@
-# 03 — Layout & Spatial Composition (15 Skills)
+# 03 — Layout & Spatial Composition (25 Skills)
 
 ## 1. Three Identical Feature Cards
 **Slop:** `grid-cols-3` with icon + heading + 2 lines of text, repeated.  
@@ -28,7 +28,7 @@
 **Slop:** `rounded-2xl` on buttons, cards, inputs, and images.  
 **Why:** No differentiation between interactive and static elements.  
 **When OK:** Strong, consistent design system that still varies slightly.  
-**Fix:** Different radii for different roles (e.g. buttons tighter, cards softer, or sharp corners for a specific look).
+**Fix:** Different radii for different roles.
 
 ## 6. Uniform Spacing
 **Slop:** Every section has the same `py-20` or `gap-8`.  
@@ -89,3 +89,63 @@
 **Why:** Feels cramped and unfinished.  
 **When OK:** Dense data interfaces.  
 **Fix:** Generous whitespace. Let elements breathe.
+
+## 16. Z-Pattern or F-Pattern Ignored
+**Slop:** Important elements placed where eyes don’t naturally go.  
+**Why:** Users miss key content.  
+**When OK:** Never.  
+**Fix:** Follow natural reading patterns.
+
+## 17. Inconsistent Grid
+**Slop:** Columns that don’t align across sections.  
+**Why:** Looks sloppy.  
+**When OK:** Intentional asymmetry.  
+**Fix:** Use a consistent grid system.
+
+## 18. Too Many Columns on Mobile
+**Slop:** Multi-column layouts that don’t stack.  
+**Why:** Unusable on small screens.  
+**When OK:** Never.  
+**Fix:** Stack on mobile, multi-column on larger screens.
+
+## 19. Missing Visual Hierarchy in Sections
+**Slop:** Every section looks the same.  
+**Why:** Boring and hard to scan.  
+**When OK:** Never.  
+**Fix:** Vary density, size, and composition.
+
+## 20. Overlapping Elements Without Care
+**Slop:** Text overlapping images or other text.  
+**Why:** Broken look.  
+**When OK:** Intentional layered design.  
+**Fix:** Ensure clear separation.
+
+## 21. Fixed Heights That Break Content
+**Slop:** Rigid heights that cut off text.  
+**Why:** Content overflow.  
+**When OK:** Never for text.  
+**Fix:** Let content define height or use min-height.
+
+## 22. Poor Use of Negative Space
+**Slop:** Either too crowded or too empty without purpose.  
+**Why:** No control.  
+**When OK:** Never.  
+**Fix:** Use whitespace intentionally to group and separate.
+
+## 23. Centered Icons in Empty Space
+**Slop:** Large empty areas with a single centered icon.  
+**Why:** Looks unfinished.  
+**When OK:** Empty states with purpose.  
+**Fix:** Fill with meaningful content or reduce space.
+
+## 24. Misaligned Elements
+**Slop:** Elements that should align but don’t.  
+**Why:** Unprofessional.  
+**When OK:** Never.  
+**Fix:** Use consistent alignment and grid.
+
+## 25. No Responsive Consideration
+**Slop:** Desktop-only layout that breaks on mobile.  
+**Why:** Most users are on mobile.  
+**When OK:** Never.  
+**Fix:** Mobile-first or thoroughly tested responsive design.
