@@ -9,10 +9,11 @@ When the user says `/aithings`, “fix the AI slop”, “make this not look AI-
 ## Core Workflow (Mandatory)
 
 1. **Audit**  
-   Read the current HTML/CSS/JS (or React/Vue/Svelte components). Scan against all 90 skills in the `skills/` folder (especially the most common tells).
+   - First run the detector if available: `node detect-slop.js .` (or `--json`).
+   - Also manually scan HTML/CSS/JS (or React/Vue/Svelte) against the 150 skills in the `skills/` folder.
 
 2. **Propose**  
-   Present a clear, prioritized list to the user in this format:
+   Present a clear, prioritized list to the user:
 
    ### Proposed Changes
    **Critical (do these)**
@@ -27,18 +28,18 @@ When the user says `/aithings`, “fix the AI slop”, “make this not look AI-
    Always explain *why* it looks like AI slop and what the intentional alternative is.
 
 3. **Wait for Approval**  
-   Do **not** change any code until the user explicitly approves (e.g. “yes”, “do it”, “apply the critical ones”, “approved”).
+   Do **not** change any code until the user explicitly approves.
 
 4. **Apply**  
    Make the approved changes. Prefer CSS variables, design tokens, and clean component structure.
 
 5. **Screenshot & Self-Correct**  
-   - Render the page (use browser tools, Playwright, Puppeteer, or the environment’s preview).
+   - Render the page (browser tools, Playwright, Puppeteer, or preview).
    - Take a full-page screenshot.
-   - Analyze the screenshot against the skills.
-   - Fix remaining visual issues (contrast, spacing, hierarchy, overflow, etc.).
+   - Analyze against the skills.
+   - Fix remaining visual issues.
    - Repeat if necessary (max 2–3 iterations).
-   - Show the user the final result and the screenshot.
+   - Show the user the final result.
 
 ## Absolute Rules
 
@@ -49,7 +50,6 @@ When the user says `/aithings`, “fix the AI slop”, “make this not look AI-
 - Always prefer real content, real screenshots, and specific copy over generic placeholders.
 - Respect `prefers-reduced-motion`.
 - Maintain WCAG AA contrast minimums.
-- Document your design decisions briefly in comments or a short summary.
 
 ## Design Direction First
 
@@ -57,26 +57,27 @@ Before applying fixes, if the project has no clear aesthetic direction, ask the 
 
 > What should this feel like? Examples: editorial magazine, precise tool, warm craftsman, brutalist, quiet luxury, technical documentation, etc.
 
-Then lock 3–5 design tokens (primary color, typeface pair, spacing scale, radius philosophy) and apply them consistently.
+Then lock 3–5 design tokens and apply them consistently.
 
 ## Reference the Detailed Skills
 
-Always consult and apply the relevant skills from:
+Always consult:
 
-- `skills/01-color.md`
-- `skills/02-typography.md`
-- `skills/03-layout.md`
-- `skills/04-components.md`
-- `skills/05-motion.md`
-- `skills/06-copy.md`
+- `skills/01-color.md` (25 skills)
+- `skills/02-typography.md` (25 skills)
+- `skills/03-layout.md` (25 skills)
+- `skills/04-components.md` (25 skills)
+- `skills/05-motion.md` (25 skills)
+- `skills/06-copy.md` (25 skills)
 
-Each file contains 15 specific, actionable skills with “When it’s OK”, “Why it’s slop”, and “How to fix”.
+Each contains specific, actionable rules with “When it’s OK”, “Why it’s slop”, and “How to fix”.
+
+## Detector
+
+Use `detect-slop.js` to automatically find common patterns before manual review.
 
 ## Final Output
 
-After the screenshot loop, summarize:
-- What was fixed
-- Remaining intentional design choices
-- Any further recommendations
+After the screenshot loop, summarize what was fixed and remaining intentional choices.
 
 Now begin the audit if the user has activated the skill.
