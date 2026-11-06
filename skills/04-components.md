@@ -1,4 +1,4 @@
-# 04 — Components & UI Elements (15 Skills)
+# 04 — Components & UI Elements (25 Skills)
 
 ## 1. Lucide / Feather Icons Only
 **Slop:** Every icon comes from the same thin-line set (especially sparkles, zap, brain, rocket).  
@@ -89,3 +89,63 @@
 **Why:** Bad for accessibility and mobile.  
 **When OK:** Supplementary details.  
 **Fix:** Show critical information visibly.
+
+## 16. Default Component Library Look
+**Slop:** Untouched shadcn, Chakra, or similar defaults.  
+**Why:** Instantly recognizable as generated.  
+**When OK:** Never for production.  
+**Fix:** Heavily customize tokens and components.
+
+## 17. Inconsistent Icon Sizes
+**Slop:** Icons of random sizes next to each other.  
+**Why:** Looks messy.  
+**When OK:** Never.  
+**Fix:** Consistent icon sizing system.
+
+## 18. Missing Focus States
+**Slop:** No visible focus ring on interactive elements.  
+**Why:** Accessibility failure.  
+**When OK:** Never.  
+**Fix:** Clear, high-contrast focus indicators.
+
+## 19. Disabled States That Look Enabled
+**Slop:** Disabled buttons that look the same as enabled.  
+**Why:** Confusing.  
+**When OK:** Never.  
+**Fix:** Clear visual disabled state.
+
+## 20. Over-Complex Cards
+**Slop:** Cards with too many elements and actions.  
+**Why:** Cognitive overload.  
+**When OK:** Dense dashboards.  
+**Fix:** Simplify to essential information.
+
+## 21. Stock Illustrations
+**Slop:** Generic undraw or similar illustrations.  
+**Why:** Overused.  
+**When OK:** When customized.  
+**Fix:** Custom illustrations or real photography.
+
+## 22. Inconsistent Padding Inside Components
+**Slop:** Different internal spacing across similar components.  
+**Why:** Looks unfinished.  
+**When OK:** Never.  
+**Fix:** Standardized padding scale.
+
+## 23. Missing Loading States
+**Slop:** Buttons or sections with no loading feedback.  
+**Why:** Poor UX.  
+**When OK:** Never.  
+**Fix:** Clear loading indicators.
+
+## 24. Error States That Are Generic
+**Slop:** “Something went wrong” with no recovery.  
+**Why:** Unhelpful.  
+**When OK:** Never.  
+**Fix:** Specific error messages with next actions.
+
+## 25. Component Density Issues
+**Slop:** Either too sparse or too cramped components.  
+**Why:** Poor usability.  
+**When OK:** Never.  
+**Fix:** Balanced density appropriate to the interface.
