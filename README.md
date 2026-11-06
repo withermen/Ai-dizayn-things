@@ -25,31 +25,33 @@ None of these are evil individually. The problem is the **cluster of unowned def
 
 ## How to Use
 
-### Claude Code / Codex / similar
+### As a Skill
 1. Clone or copy this repository into your project or skills directory.
-2. Instruct the agent: “Read and follow `aithings/SKILL.md`” or simply type `/aithings`.
-3. The agent will:
-   - Audit the current page / component against the 6 categories (90 detailed skills total)
-   - Present a clear, prioritized list of proposed changes with reasoning
-   - Wait for your explicit approval
-   - Apply the approved changes
-   - Render the page, take a full screenshot, and iterate on visual problems
+2. Instruct the agent: “Read and follow `SKILL.md`” or simply type `/aithings`.
+3. The agent will audit, propose, wait for approval, apply, then screenshot and self-correct.
 
-### Manual
-Just tell any coding agent: “Follow the instructions in the `aithings` skill from withermen/Ai-dizayn-things”.
+### As MCP / Detector
+See [MCP.md](MCP.md). Run the Node.js detector:
+
+```bash
+node detect-slop.js .
+node detect-slop.js . --json
+```
 
 ## Structure
 
 ```
-aithings/
 ├── SKILL.md                 # Main agent instructions + workflow
 ├── skills/
-│   ├── 01-color.md          # 15 color & atmosphere skills
-│   ├── 02-typography.md     # 15 typography skills
-│   ├── 03-layout.md         # 15 layout skills
-│   ├── 04-components.md     # 15 component skills
-│   ├── 05-motion.md         # 15 motion & interaction skills
-│   └── 06-copy.md           # 15 copy & credibility skills
+│   ├── 01-color.md          # 25 color & atmosphere skills
+│   ├── 02-typography.md     # 25 typography skills
+│   ├── 03-layout.md         # 25 layout skills
+│   ├── 04-components.md     # 25 component skills
+│   ├── 05-motion.md         # 25 motion & interaction skills
+│   └── 06-copy.md           # 25 copy & credibility skills
+├── detect-slop.js           # Node.js automatic detector
+├── package.json
+├── MCP.md                   # MCP / skill setup instructions
 ├── LICENSE
 └── README.md
 ```
