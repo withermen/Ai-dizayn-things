@@ -1,4 +1,4 @@
-# 06 — Copy & Credibility (15 Skills)
+# 06 — Copy & Credibility (25 Skills)
 
 ## 1. Generic Headlines
 **Slop:** “Elevate your workflow”, “Build the future of work”, “Unlock your potential”, “Supercharge your team”.  
@@ -89,3 +89,63 @@
 **Why:** Resonates with no one.  
 **When OK:** Never.  
 **Fix:** Write to a specific person or role.
+
+## 16. Passive Voice Overuse
+**Slop:** “Features are provided”, “Results can be achieved”.  
+**Why:** Weak and distant.  
+**When OK:** Rare.  
+**Fix:** Active voice. “You close books in 2 days”.
+
+## 17. Jargon Without Explanation
+**Slop:** Industry terms with no context.  
+**Why:** Excludes users.  
+**When OK:** Expert audiences.  
+**Fix:** Plain language or explain on first use.
+
+## 18. Inconsistent Tone
+**Slop:** Formal in one section, casual in another.  
+**Why:** Unprofessional.  
+**When OK:** Never.  
+**Fix:** Consistent brand voice.
+
+## 19. Missing Value Proposition
+**Slop:** No clear statement of what the product does and for whom.  
+**Why:** Users leave.  
+**When OK:** Never.  
+**Fix:** Clear value prop above the fold.
+
+## 20. Overly Long Paragraphs
+**Slop:** Walls of text.  
+**Why:** Hard to scan.  
+**When OK:** Never on web.  
+**Fix:** Short paragraphs, bullets, scannable structure.
+
+## 21. Fake Urgency
+**Slop:** “Limited time”, “Only 3 spots left” without truth.  
+**Why:** Destroys trust.  
+**When OK:** Real scarcity.  
+**Fix:** Honest messaging.
+
+## 22. Missing Social Proof When Available
+**Slop:** No testimonials, logos, or numbers when they exist.  
+**Why:** Missed opportunity.  
+**When OK:** Early stage.  
+**Fix:** Use real proof.
+
+## 23. Inconsistent Terminology
+**Slop:** Same feature called different names.  
+**Why:** Confusing.  
+**When OK:** Never.  
+**Fix:** Consistent naming.
+
+## 24. Weak Benefit Statements
+**Slop:** Features described without “so that” or outcome.  
+**Why:** Users don’t care about features alone.  
+**When OK:** Never.  
+**Fix:** Always connect to user outcome.
+
+## 25. No Call to Action Clarity
+**Slop:** Multiple competing CTAs or none.  
+**Why:** Decision paralysis.  
+**When OK:** Never.  
+**Fix:** One primary CTA per section or page.
