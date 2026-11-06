@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#fafaf9"/>
+  <rect x="0" y="0" width="800" height="80" fill="#1c1917"/>
+  <text x="40" y="50" fill="#fafaf9" font-family="system-ui" font-size="20" font-weight="600">Your Product</text>
+  <rect x="600" y="25" width="140" height="36" rx="6" fill="#ea580c"/>
+  <text x="670" y="48" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="600">Start free trial</text>
+  
+  <text x="40" y="160" fill="#1c1917" font-family="Georgia, serif" font-size="42" font-weight="600">Close your books</text>
+  <text x="40" y="210" fill="#1c1917" font-family="Georgia, serif" font-size="42" font-weight="600">in 2 days.</text>
+  <text x="40" y="260" fill="#57534e" font-family="system-ui" font-size="18" width="400">Finance teams match bank transactions and send reports from one place. No more end-of-month chaos.</text>
+  
+  <rect x="40" y="300" width="180" height="48" rx="6" fill="#ea580c"/>
+  <text x="130" y="330" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="600">See how it works</text>
+  
+  <rect x="480" y="140" width="280" height="180" rx="8" fill="#e7e5e4"/>
+  <text x="620" y="240" text-anchor="middle" fill="#78716c" font-family="system-ui" font-size="14">Product screenshot</text>
+  
+  <text x="400" y="30" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="600">INTENTIONAL</text>
+</svg>
